@@ -125,3 +125,17 @@ footer a{
 .footer{
     grid-area: footer;
 }
+.aside{
+    animation-name: anima;
+    animation-iteration-count:unset;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+@keyframes anima{
+    0%{width: 20vw;}
+    25%{width: 30vw;}
+    50%{width: 50vw;}
+    75%{width: 75vw;}
+    100%{width: 100vw;}
+}
