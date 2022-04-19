@@ -124,8 +124,7 @@ footer a{
 }
 .footer{
     grid-area: footer;
-}
-.aside{
+}.aside{
     animation-name: anima;
     animation-iteration-count:unset;
     animation-timing-function: ease;
